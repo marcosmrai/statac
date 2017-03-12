@@ -6,6 +6,7 @@
 
 from .parametric_tests import *
 from .nonparametric_tests import *
+from .visual_comp import *
 from scipy.stats import ttest_ind, ttest_rel, wilcoxon, mannwhitneyu
 
 __all__ = ['anova_test',
